@@ -6,7 +6,7 @@ There are two ways to check the application.
 
  Link : http://marvelapp-env.s93rkkku7z.ap-southeast-2.elasticbeanstalk.com
 
-2)Follow the below written steps to run the web app :
+2)Run the clone command to pull the code in your local directory. Navigate to the project folder follow steps written below :  
 
 ## Available Scripts
 
