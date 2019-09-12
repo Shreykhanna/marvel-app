@@ -20,4 +20,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-NOTE: SOME OF THE CHARACTERS DESCRIPTION IS MISSING BY DEFAULT
+NOTE: SOME OF THE CHARACTERS IMAGES AND DESCRIPTION ARE MISSING BY DEFAULT
