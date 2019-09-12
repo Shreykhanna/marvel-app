@@ -1,26 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Navbar from './components/Navbar'
+import Characters from './components/Characterslist'
+import CharacterDetails from './components/Characterdetails'
+import{
+  Switch,Route
+} from 'react-router-dom'
 
-function App() {
-  return (
+class App extends React.Component{
+  
+  render()
+  {
+  return(
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <Switch>
+      <Route exact path="/" component={Characters}/>
+      <Route exact path='/details' component={CharacterDetails}/>
+     </Switch>
     </div>
   );
+}
 }
 
 export default App;
